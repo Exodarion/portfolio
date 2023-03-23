@@ -1,0 +1,18 @@
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+*.env
+*.bat
+
+# Maven
+target/
+
+# README
+LICENSE.txt
+README.txt
+
+# Custom Folders
+backup/
+sources/
