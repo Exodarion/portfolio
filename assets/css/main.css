@@ -2876,7 +2876,7 @@ input, select, textarea {
 		}
 
 		#header header {
-			color: rgba(0, 0, 0, 0.8);
+			color: rgba(255, 255, 255, 0.8);
 			display: inline-block;
 			padding-bottom: 8em;
 			vertical-align: middle;
@@ -3058,7 +3058,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #000;
+					border: solid 1px #fff;
 					display: block;
 					font-size: 2em;
 					height: 2.5em;
@@ -3074,9 +3074,9 @@ input, select, textarea {
 				}
 	
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
-						border: solid 2px #fff;
-						color: #fff;
+						background-color: rgba(0, 0, 0, 0.175);
+						border: solid 2px #000;
+						color: #000;
 					}
 	
 				#header nav a:active {
@@ -3085,8 +3085,8 @@ input, select, textarea {
 				}
 	
 					#header nav a:active:before {
-						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						background-color: rgba(0, 0, 0, 0.35);
+						color: #000;
 					}
 	
 				#header nav a span {
@@ -3136,10 +3136,10 @@ input, select, textarea {
 
 	#overlay {
 		/* Overlay animation, first value = duration, second value = delay */
-		-moz-animation: overlay 1s 1s forwards;
-		-webkit-animation: overlay 1s 1s forwards;
-		-ms-animation: overlay 1s 1s forwards;
-		animation: overlay 1s 1s forwards;
+		-moz-animation: overlay 2s 1s forwards;
+		-webkit-animation: overlay 2s 1s forwards;
+		-ms-animation: overlay 2s 1s forwards;
+		animation: overlay 2s 1s forwards;
 
 		background-attachment: fixed, fixed;
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
